@@ -12,9 +12,9 @@ tags:
 - Stack Network
 - Microsoft
 - Management
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/management/master/_listings/azure-api-management/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-api-management/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure API Management API
@@ -26,7 +26,7 @@ apis:
   tags: Management
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/management/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-updatehostname-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-managedeployments-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
