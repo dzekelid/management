@@ -26,7 +26,7 @@ apis:
   tags: Management
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-locks-lockname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-locks-lockname-delete.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
