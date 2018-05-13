@@ -30,7 +30,41 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/1forge/quota-get.md
+- name: 1Forge API Usage Quota API
+  description: Returns the current quota for the API consumer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2018-01-22 at 4.54.47 PM.png
+  humanURL: https://1forge.com
+  baseURL: https://forex.1forge.com/1.0.3/
+  tags: Management
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/1forge/quota-get.md
 x-common:
+- type: x-code
+  url: https://1forge.com/forex-data-api/libraries
+- type: x-documentation
+  url: https://1forge.com/forex-data-api/api-documentation
+- type: x-email
+  url: contact@1forge.com
+- type: x-embeddable
+  url: https://1forge.com/forex-data-api/widgets
+- type: x-faq
+  url: https://1forge.com/forex-data-api/faq
+- type: x-github
+  url: https://github.com/1Forge
+- type: x-license-agreement
+  url: https://1forge.com/forex-data-api/license-agreement
+- type: x-pricing
+  url: https://1forge.com/forex-data-api/pricing
+- type: x-privacy-policy
+  url: https://1forge.com/privacy-policy
+- type: x-selfservice-registration
+  url: https://1forge.com/register
+- type: x-terms-of-service
+  url: https://1forge.com/forex-data-api/terms-of-use
+- type: x-website
+  url: https://1forge.com
 - type: x-code
   url: https://1forge.com/forex-data-api/libraries
 - type: x-documentation
