@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-authorization-locks-get.md
-- name: Azure Resource Manager API Management Locks List At Resource Level
-  description: Gets all the management locks for a resource or any level below resource.
+- name: Azure Resource Manager API Management Locks List At Subscription Level
+  description: Gets all the management locks for a subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Management
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-resourceprovidernamespace-parentresourcepath-resourcetype-resourcename-providers-microsoft-authorization-locks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-authorization-locks-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-resourceprovidernamespace-parentresourcepath-resourcetype-resourcename-providers-microsoft-authorization-locks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-authorization-locks-get-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
