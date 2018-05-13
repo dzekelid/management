@@ -1,10 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: SubscriptionClient
-  description: All resource groups and resources exist within subscriptions. These
-    operation enable you get information about your subscriptions and tenants. A tenant
-    is a dedicated instance of Azure Active Directory (Azure AD) for your organization.
+  title: Azure Resource Manager API Management Locks List At Resource Level
+  description: Gets all the management locks for a resource or any level below resource.
   version: 1.0.0
 host: management.azure.com
 basePath: /
