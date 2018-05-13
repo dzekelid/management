@@ -27,15 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-authorization-locks-get.md
-- name: Azure Resource Manager API Management Locks Create Or Update By Scope
-  description: Create or update a management lock by scope.
+- name: Azure Resource Manager API Management Locks Delete By Scope
+  description: Delete a management lock by scope.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Management
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-locks-lockname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-locks-lockname-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/scope-providers-microsoft-authorization-locks-lockname-delete-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
