@@ -1,10 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: SubscriptionClient
-  description: All resource groups and resources exist within subscriptions. These
-    operation enable you get information about your subscriptions and tenants. A tenant
-    is a dedicated instance of Azure Active Directory (Azure AD) for your organization.
+  title: Azure Resource Manager API Creates or updates a management lock at the resource
+    group level.
+  description: When you apply a lock at a parent scope, all child resources inherit
+    the same lock. To create management locks, you must have access to Microsoft.Authorization/*
+    or Microsoft.Authorization/locks/* actions. Of the built-in roles, only Owner
+    and User Access Administrator are granted those actions.
   version: 1.0.0
 host: management.azure.com
 basePath: /
