@@ -27,17 +27,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-authorization-locks-get.md
-- name: Azure Resource Manager API Management Locks Get At Resource Level
-  description: Get the management lock of a resource or any level below resource.
+- name: Azure Resource Manager API Creates or updates a management lock at the subscription
+    level.
+  description: When you apply a lock at a parent scope, all child resources inherit
+    the same lock. To create management locks, you must have access to Microsoft.Authorization/*
+    or Microsoft.Authorization/locks/* actions. Of the built-in roles, only Owner
+    and User Access Administrator are granted those actions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Management
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-resourceprovidernamespace-parentresourcepath-resourcetype-resourcename-providers-microsoft-authorization-locks-lockname-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-resourceprovidernamespace-parentresourcepath-resourcetype-resourcename-providers-microsoft-authorization-locks-lockname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-authorization-locks-lockname-put.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
