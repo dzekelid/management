@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: ApiManagementClient
-  description: Use these REST APIs for performing operations on User entity in Azure
-    API Management deployment. The User entity in API Management represents the developers
-    that call the APIs of the products to which they are subscribed.
+  title: Azure API Management API ApiManagementServices ManageDeployments
+  description: 'Manages deployments of an API Management service. This operation can
+    be used to do the following: Change SKU, Change SKU Units, Change Service Tier
+    (Developer/Standard/Premium) and Manage VPN Configuration. This is a long running
+    operation and can take several minutes to complete.'
   version: 1.0.0
 host: management.azure.com
 basePath: /
