@@ -27,10 +27,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-authorization-locks-get.md
-- name: Azure Resource Manager API Creates or updates a management lock at the subscription
+- name: Azure Resource Manager API Deletes the management lock at the subscription
     level.
-  description: When you apply a lock at a parent scope, all child resources inherit
-    the same lock. To create management locks, you must have access to Microsoft.Authorization/*
+  description: To delete management locks, you must have access to Microsoft.Authorization/*
     or Microsoft.Authorization/locks/* actions. Of the built-in roles, only Owner
     and User Access Administrator are granted those actions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
@@ -39,7 +38,9 @@ apis:
   tags: Management
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-authorization-locks-lockname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-authorization-locks-lockname-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/management/master/_listings/azure-resource-manager/subscriptions-subscriptionid-providers-microsoft-authorization-locks-lockname-delete-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
